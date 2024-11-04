@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import JB from '../assets/JB.png';
+import JB from '../../public/assets/JB.png';
 import Link from 'next/link';
 
 export default function Header() {

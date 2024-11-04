@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import {DM_Sans as DMSans} from 'next/font/google';
+import { DM_Sans as DMSans } from 'next/font/google';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../styles/globals.css';
 
-const dmSans = DMSans({ subsets: ['latin']});
+const dmSans = DMSans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Mercado JB",
@@ -11,12 +13,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="pt-br">
-      <body className={dmSans.className}>{children}</body>
+      <body className={dmSans.className}>
+        <Header />
+        <main className="mx-auto max-w-screen-xl p-8">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }

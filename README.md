@@ -16,33 +16,6 @@ Next.js - Framework React para renderização do lado do servidor e geração de
 React - Biblioteca JavaScript para criação de interfaces de usuário.
 Tailwind CSS - Framework para estilização rápida e responsiva.
 Netlify - Plataforma para deploy e gerenciamento de projetos web.
-
-📂 Estrutura do Projeto
-Abaixo está uma visão geral da estrutura de diretórios e arquivos principais:
-
-plaintext
-Copiar código
-📦mercado-jb
- ┣ 📂public
- ┃ ┣ 📂assets
- ┃ ┃ ┗ 📜JB.png                 # Logotipo
- ┣ 📂src
- ┃ ┣ 📂app
- ┃ ┃ ┣ 📜page.tsx               # Página inicial com ofertas
- ┃ ┃ ┣ 📜contato/page.tsx       # Página de Contato
- ┃ ┃ ┣ 📜localizacao/page.tsx   # Página de Localização
- ┃ ┃ ┗ 📜sobre/page.tsx         # Página Sobre Nós
- ┃ ┣ 📂components
- ┃ ┃ ┣ 📜Header.tsx             # Cabeçalho e menu de navegação
- ┃ ┃ ┣ 📜Footer.tsx             # Rodapé
- ┃ ┃ ┗ 📜ProductCard.tsx        # Componente de exibição de produtos em promoção
- ┃ ┃ ┗ 📜ProductGrid.tsx  
- ┃ ┗ 📂styles
- ┃ ┃ ┗ 📜globals.css            # Estilos globais
- ┣ 📜.eslintrc.json             # Configuração do ESLint
- ┣ 📜.gitignore                 # Arquivos e pastas ignoradas pelo Git
- ┣ 📜README.md                  # Documentação do projeto
- ┗ 📜package.json               # Dependências e scripts do projeto
  
 🖥️ Rodando o Projeto Localmente
 Para rodar o projeto em seu ambiente local, siga as instruções abaixo:

@@ -16,10 +16,10 @@ export default function Localizacao() {
             Endereço
           </h2>
           <p className="text-center text-sm md:text-base text-gray-700">
-            Rua Joaquim Campos, Centro, 188
+            Rua Amazonas, 215 - Centro
           </p>
           <p className="text-center text-sm md:text-base text-gray-700 mb-2 md:mb-4">
-            Cidade de Exemplo, Estado - CEP 12345-678
+            Santa Inês, Paraná - CEP 86660-000
           </p>
         </div>
 
